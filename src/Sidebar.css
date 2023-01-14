@@ -28,3 +28,41 @@
   border-top-right-radius: 10px;
   object-fit: cover;
 }
+.sidebar_top > h4 {
+  color: gray;
+  font-size: 12px;
+}
+
+.sidebar_top > h2 {
+     font-size: 18px;
+}
+
+.sidebar_stats {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.sidebar_stat {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar_stat > p {
+  color: gray;
+  font-size: 13px;
+  font-weight: 600;
+}
+.sidebar_statNumber {
+  font-weight: bold;
+  color: #0a66c2 !important;
+}
+.sidebar_bottom{
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
