@@ -34,7 +34,7 @@
 }
 
 .sidebar_top > h2 {
-     font-size: 18px;
+  font-size: 18px;
 }
 
 .sidebar_stats {
@@ -58,11 +58,26 @@
   font-weight: bold;
   color: #0a66c2 !important;
 }
-.sidebar_bottom{
-    text-align: left;
-    padding: 10px;
-    border: 1px solid lightgray;
-    background-color: white;
-    border-radius: 10px;
-    margin-top: 10px;
+.sidebar_bottom {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.sidebar_recentItem {
+  display: flex;
+  font-size: 13px;
+  cursor: pointer;
+  color: gray;
+  font-weight: bolder;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.sidebar_recentItem:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+  color: black;
+  border-radius: 10px;
 }
